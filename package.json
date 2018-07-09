@@ -1,0 +1,46 @@
+{
+  "name": "airtable-formula-builder",
+  "description": "Helper tool to create formulas compatible with Airtable API `formulaField`.",
+  "author": {
+    "name": "Gabriel Almeida",
+    "email": "gabriel_almeida@me.com"
+  },
+  "keywords": [
+    "airtable",
+    "formula",
+    "builder",
+    "query"
+  ],
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": ".*\\.spec\\.ts$"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "@types/ramda": "^0.25.34",
+    "jest": "^23.3.0",
+    "ts-jest": "^23.0.0",
+    "typescript": "^2.9.2"
+  }
+}
