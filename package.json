@@ -1,6 +1,6 @@
 {
   "name": "airtable-formula-builder",
-  "description": "Helper tool to create formulas compatible with Airtable API `formulaField`.",
+  "description": "Helper tool to create formulas compatible with Airtable API `filterByFormula`.",
   "author": {
     "name": "Gabriel Almeida",
     "email": "gabriel_almeida@me.com"
